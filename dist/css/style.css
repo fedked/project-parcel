@@ -1,0 +1,44 @@
+:root {
+  --c-white: #fff;
+  --c-light: #f3f3f6;
+  --c-blue: #054cb7;
+  --c-grey1: #f3f3f6;
+  --c-grey2: #aaafbb;
+  --c-dark: #090709;
+  --c-dark1: #413e4c;
+  --header-height: 9.6rem;
+  --space-md: 3rem;
+  --space-lg: 6rem;
+  --space-xl: 9rem;
+  --ease: 150ms ease;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  font: 1.6rem/1.5 "Source Sans Pro", arial, helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
